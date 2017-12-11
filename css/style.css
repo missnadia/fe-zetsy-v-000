@@ -50,7 +50,11 @@ header a {
 }
 
 header a:hover {
-  color: rgb(111,127,122) solid;
+    color: rgb(111,127,122);
+}
+
+a:active, a:hover {
+    outline: 0;
 }
 
 #featured img {
